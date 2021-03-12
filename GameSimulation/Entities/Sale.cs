@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GameSimulation.Entities
 {
-    public class Sale
+    public class Sale:IEntity
     {
         public int Id { get; set; }
         public List<int> GameId { get; set; }
